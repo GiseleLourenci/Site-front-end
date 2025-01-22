@@ -18,64 +18,136 @@
                 <li><a href="#Contato">Contato</a></li>
                 <li><a href="https://google.com.br/" target="_blank">Google</a></li>
 
-                
+
             </ul>
         </nav>
 
     </header>
 
     <section id="Sobre">
-<h2>Sobre mim</h2>
-<img src="image/png" alt="Imagem de foto de perfil" title="Imagem de Gisele">
-<article>
-<p>
-    Olá eu sou a Gisele,sou um desenvolvedor web.Adicionado texte.
-</p>
+        <h2>Sobre mim</h2>
+        <img src="image/png" alt="Imagem de foto de perfil" title="Imagem de Gisele">
+        <article>
+            <p>
+                Olá eu sou a Gisele,sou um desenvolvedor web.Adicionado texte.
+            </p>
 
-</article>
+        </article>
 
-<aside>
-<h3>Habilidade</h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-</ul>
+        <aside>
+            <h3>Habilidade</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
 
-</aside>
+        </aside>
     </section>
 
     <section id="Projeto">
-<h2>Projeto</h2>
+        <h2>Projeto</h2>
 
-<article>
-<h3>Portifólio</h3>
+        <article>
+            <h3>Portifólio</h3>
 
-<p>
-Este foi o primeiro site que desenvolvi,estudando Front-End.
-</p>
+            <p>
+                Este foi o primeiro site que desenvolvi,estudando Front-End.
+            </p>
 
-</article>
+        </article>
 
     </section>
 
+    <section id="Habilidades">
+
+        <h2>Habilidades e Tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+<TR>
+    <td>HTML</td>
+    <td>Iniciante</td>
+    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
+
+  </TR>
+<tr>
+    <td>CSS</td>
+    <td>Intermediário</td>
+    <td>Experiência com flexbox,grid e animações CSS.</td>
+</tr>
+
+<td>JavaScript</td>
+    <td>Básico</td>
+    <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+<tr>
+
+</tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+
     <footer>
-<p>Direitos reservados a Gisele Lourenci</p>
+        <p>Direitos reservados a Gisele Lourenci</p>
 
-<section id="Contato">
-    <h2>Contato</h2>
+        <section id="Contato">
+            <h2>Contato</h2>
 
-    <p>Tem um contato em mente entre em contato.</p>
+            <p>Tem um contato em mente entre em contato.</p>
 
-    <address>
-E-mail: <a href="mailto:gicalourenci@gmail.com">gicalourenci@mail.com</a> <br>
-Telefone: <a href="Tel55(470999733-8340)">55 47 997338340</a>
+            <address>
+                E-mail: <a href="mailto:gicalourenci@gmail.com">gicalourenci@mail.com</a> <br>
+                Telefone: <a href="Tel55(470999733-8340)">55 47 997338340</a>
 
 
 
-    </address>
-</section>
+            </address>
+        </section>
 
+        <form action="">
+            <label for="Nome">Nome: </label>
+            <input type="text" id="Nome" name="Nome" required><br>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="Telefone">Telefone: </label>
+            <input type="tel" id="Telefone" name="Telefone"><br>
+
+            <label for="Assunto">Assunto: </label>
+            <select name="Assunto" id="Assunto: ">
+                <option value="Orçamento">Orçamento</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Outro">Outro</option>
+
+            </select>
+
+            <br>
+
+            <label for="Mensagem">Mensagem</label>
+
+            <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+            <br>
+
+            <input type="checkbox" id="Incricao" name="Inscricao">
+            <label for="Incricao">Deseja receber minha newsletter?Fique por dentro.</label>
+            <br>
+
+            <input type="submit" value="Enviar mensagem">
+
+        </form>
     </footer>
 </body>
 
